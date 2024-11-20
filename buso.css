@@ -5,7 +5,6 @@ body {
 	max-width: 1000px;
 	text-align: justify;
 	color: #522F00;
-	background-color:#fff5E8;
 }
 
 p:first-letter {
@@ -19,7 +18,7 @@ header {
 	height: 250px; 
 }
 
-h1,h2{
+h1{
 	color: #B16400;
 }
 
@@ -28,7 +27,7 @@ img {
 	border-radius: 5px;
 	padding: 5px;
 	margin: 5px 15px;
-	width: 300px; 
+	width: 15em; 
 	background-color: white;
 }
 
@@ -36,16 +35,13 @@ img {
 	float: left;
 }
 
-.jobbra { float: right;}
-
 
 q {
 	font-style: italic;
 }
 
-li  {
+li {
 	margin-bottom: 25px;
-	content:url(jel.png);
 }
 
 footer{
@@ -60,10 +56,14 @@ footer{
 	font-size: 0.8em;
 }
 
+a {
+	text-transform: uppercase;
+	text-decoration: none;
+}
 
 @media screen and (max-width:600px) {
   .balra, .jobbra {
-	float:right;
+	float: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
